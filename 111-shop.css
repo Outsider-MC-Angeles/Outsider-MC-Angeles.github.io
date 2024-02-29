@@ -113,12 +113,116 @@ body
 {
    color: #FFFFFF;
    font-family: Arial;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 22.5px;
+   font-weight: bold;
+   font-size: 27px;
+   line-height: 30px;
 }
 #wb_Text1 p, #wb_Text1 ul
 {
    margin: 0;
    padding: 0;
+}
+#Table2
+{
+   border-radius: 0px;
+   border: 2px solid #4F4F4F;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table2 td, #Table2 th
+{
+   padding: 5px 5px 5px 5px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 234px;
+   height: 150px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 150px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
+#Table2 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 234px;
+   height: 42px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 42px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 234px;
+   height: 54px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 54px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
 }
