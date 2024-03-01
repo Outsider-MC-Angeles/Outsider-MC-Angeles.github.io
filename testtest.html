@@ -7,6 +7,31 @@
 <link href="240228_OMC.css" rel="stylesheet">
 <link href="testtest.css" rel="stylesheet">
 <script src="bootstrap.min.js"></script>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="flexslider/jquery.flexslider-min.js"></script>
+<link href="flexslider/flexslider.css" rel="stylesheet">
+<script>
+$(document).ready(function()
+{
+   $('#wb_Extension1').flexslider({
+      animation: 'slide',
+      animationLoop: true,
+      animationSpeed: 600,
+      controlNav: true,
+      direction: 'horizontal',
+      directionNav: true,
+      itemWidth: 0,
+      itemMargin: 0,
+      minItems: 1,
+      maxItems: 0,
+      pauseOnHover: false,
+      pausePlay: false,
+      randomize: false,
+      slideshow: true,
+      slideshowSpeed: 4000
+   }).addClass('flexslider');
+});
+</script>
 </head>
 <body data-bs-spy="scroll">
 <div id="container">
@@ -35,16 +60,13 @@
 </div>
 <div id="wb_Image1" style="position:absolute;left:69px;top:98px;width:144px;height:171px;z-index:2;">
 <img src="images/OMC_patch_001.png" id="Image1" alt="" width="144" height="172"></div>
-<div id="wb_Extension1" style="position:absolute;left:327px;top:124px;width:471px;height:257px;z-index:3;">
-<ul id="Extension1">
-   <li><a href="http://go.microsoft.com/fwlink/p/?LinkId=255142" target="_blank"><img src="1" alt=""></a></li>
-   <li><a href="album/240224/240203_Outsider Ride.jpg" target="_blank"><img src="2" alt=""></a></li>
-   <li><a href="album/240224/240203_Outsider.jpg" target="_blank"><img src="3" alt=""></a></li>
-   <li><a href="album/240224/240217_Subic.jpg" target="_blank"><img src="4" alt=""></a></li>
-   <li><a href="album/240224/240224_Clubhouse.jpg" target="_blank"><img src="5" alt=""></a></li>
-   <li><a href="album/240224/The Rocker Magazin Nr 22_23.jpg" target="_blank"><img src="6" alt=""></a></li>
-</ul>
-</div>
+<div id="wb_Extension1" style="position:absolute;left:312px;top:109px;width:486px;height:263px;z-index:3;">
+<ul class="slides">
+
+<li><a href="" target=""><img src="images/2024-01-27 13.25.54.jpg" alt="2024-01-27 13.25.54.jpg" title="2024-01-27 13.25.54.jpg" /></a><p class="flex-caption">2024-01-27 13.25.54.jpg</p></li>
+<li><a href="" target=""><img src="images/240203_Outsider Ride.jpg" alt="240203_Outsider Ride.jpg" title="240203_Outsider Ride.jpg" /></a><p class="flex-caption">240203_Outsider Ride.jpg</p></li>
+
+</ul></div>
 </div>
 </body>
 </html>
