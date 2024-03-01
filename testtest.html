@@ -35,85 +35,15 @@
 </div>
 <div id="wb_Image1" style="position:absolute;left:69px;top:98px;width:144px;height:171px;z-index:2;">
 <img src="images/OMC_patch_001.png" id="Image1" alt="" width="144" height="172"></div>
-<div id="wb_Extension1" style="position:absolute;left:292px;top:105px;width:506px;height:271px;z-index:3;">
-<?php
-   $images_folder = "\album\240224/";
-   $columns = 3;
-   $rows = 3;
-   $thumbnail_size = 120;
-   $first = isset($_GET['first']) ? $_GET['first'] : 0;
-   $img  = isset($_GET['img']) ? $_GET['img'] : "";
-   if ($img)
-   {
-      echo "<img alt=\"\" style=\"margin:10px\" border=\"0\" src=\"$images_folder$img\">\r\n";
-   }
-   else
-   {
-      $images = 0;
-      $current_col = 0;
-      $count = $rows * $columns;
-      $last = $count + $first;
-      echo "<table border=\"0\" cellspacing=\"10\" cellpadding=\"0\">\r\n";
-      $dir = opendir($images_folder);
-      while ($filename = readdir($dir))
-      {
-         $ext = pathinfo($filename, PATHINFO_EXTENSION);
-         if ($ext == 'gif' || $ext == 'jpeg' || $ext == 'jpg' || $ext == 'png')
-         {
-            if ($images >= $first && $images < $last)
-            {
-               if ($current_col == 0) 
-               {
-                  echo "<tr>\r\n";
-               }
-               list($width, $height) = getimagesize($images_folder.$filename);
-               $link = "<a href=\"$images_folder$filename\" target=\"_blank\">";
-               $image_ratio = $width/$height;
-               if ($image_ratio > 1)
-               {
-                  $thumbnail_width = $thumbnail_size;
-                  $thumbnail_height = $thumbnail_size / $image_ratio;
-               }
-               else
-               {
-                  $thumbnail_width = $thumbnail_size * $image_ratio;
-                  $thumbnail_height = $thumbnail_size;
-               }
-               echo "<td align=\"center\" valign=\"bottom\">$link<img src=\"".$images_folder.$filename."\" alt=\"\" border=\"0\" style=\"width:".$thumbnail_width."px;height:".$thumbnail_height."px\"></a></td>\r\n";
-               $current_col++;
-               if ($current_col == $columns)
-               {
-                  $current_col = 0;
-                  echo "</tr>\r\n";
-               }
-            }
-            $images++;
-         }
-      }
-      $previous = '';
-      $next = '';
-      if ($first >= $count)
-      {
-         $previous = "<a href=\"".basename(__FILE__)."?first=".abs($first - $count)."\">";
-      }
-      $previous .= "Previous";
-      if ($first >= $count)
-      {
-         $previous .= "</a>";
-      }
-      if ($last < $images)
-      {
-         $next = "<a href=\"".basename(__FILE__)."?first=$last\">";
-      }
-      $next .= "Next";
-      if ($last < $images)
-      {
-         $next .= "</a>";
-      }
-      echo "<tr><td align=\"center\" colspan=\"$columns\">$previous | <a href=\"".basename(__FILE__)."?first=0\">Home</a> | $next</td></tr>\r\n";
-      echo "</table>\r\n";
-   }
-?>
+<div id="wb_Extension1" style="position:absolute;left:327px;top:124px;width:471px;height:257px;z-index:3;">
+<ul id="Extension1">
+   <li><a href="http://go.microsoft.com/fwlink/p/?LinkId=255142" target="_blank"><img src="1" alt=""></a></li>
+   <li><a href="album/240224/240203_Outsider Ride.jpg" target="_blank"><img src="2" alt=""></a></li>
+   <li><a href="album/240224/240203_Outsider.jpg" target="_blank"><img src="3" alt=""></a></li>
+   <li><a href="album/240224/240217_Subic.jpg" target="_blank"><img src="4" alt=""></a></li>
+   <li><a href="album/240224/240224_Clubhouse.jpg" target="_blank"><img src="5" alt=""></a></li>
+   <li><a href="album/240224/The Rocker Magazin Nr 22_23.jpg" target="_blank"><img src="6" alt=""></a></li>
+</ul>
 </div>
 </div>
 </body>
