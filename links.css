@@ -8,6 +8,10 @@ div#container
 body
 {
    background-color: #000000;
+   background-image: url('images/Wasserzeichen_003.jpg');
+   background-attachment: scroll;
+   background-position: center top;
+   background-repeat: repeat-y;
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -44,9 +48,7 @@ a:hover
 #wb_Text1 
 {
    background-color: transparent;
-   background-image: url('images/Wasserzeichen_003.jpg');
-   background-repeat: no-repeat;
-   background-position: left top;
+   background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;

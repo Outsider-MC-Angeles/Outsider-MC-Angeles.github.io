@@ -8,6 +8,10 @@ div#container
 body
 {
    background-color: #000000;
+   background-image: url('images/Wasserzeichen_003.jpg');
+   background-attachment: scroll;
+   background-position: center top;
+   background-repeat: repeat-y;
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -139,13 +143,40 @@ body
    text-align: center;
    vertical-align: middle;
    width: 234px;
-   height: 54px;
+   height: 42px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
 }
 #Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 42px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 234px;
+   height: 54px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell7
 {
    background-color: transparent;
    background-image: none;
