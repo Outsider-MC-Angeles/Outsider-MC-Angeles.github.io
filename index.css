@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 650px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -19,6 +19,16 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
 }
 #wb_Image1
 {
@@ -54,43 +64,6 @@ body
    line-height: 22.5px;
 }
 #wb_Text1 p, #wb_Text1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text2 div
-{
-   text-align: center;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text3
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 22.5px;
-}
-#wb_Text3 p, #wb_Text3 ul
 {
    margin: 0;
    padding: 0;
@@ -163,6 +136,20 @@ body
    height: 0;
    line-height: 0;
 }
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
 #wb_Text4 
 {
    background-color: transparent;
@@ -173,16 +160,7 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text4
+#wb_Text4 div
 {
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 21px;
-}
-#wb_Text4 p, #wb_Text4 ul
-{
-   margin: 0;
-   padding: 0;
+   text-align: left;
 }

@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 650px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -35,7 +35,7 @@ body
    width: 100%;
    height: 100%;
 }
-#wb_Text1 
+#wb_Text6 
 {
    background-color: transparent;
    background-image: none;
@@ -45,7 +45,7 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text1
+#wb_Text6
 {
    color: #FFFFFF;
    font-family: Arial;
@@ -53,7 +53,7 @@ body
    font-size: 27px;
    line-height: 30px;
 }
-#wb_Text1 p, #wb_Text1 ul
+#wb_Text6 p, #wb_Text6 ul
 {
    margin: 0;
    padding: 0;
@@ -88,8 +88,8 @@ body
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
-   width: 234px;
-   height: 170px;
+   width: 190px;
+   height: 136px;
    color: #000000;
    font-family: Arial;
    font-size: 13px;
@@ -102,7 +102,7 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 170px;
+   height: 136px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 16px;
@@ -115,8 +115,8 @@ body
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
-   width: 234px;
-   height: 42px;
+   width: 190px;
+   height: 44px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
@@ -129,7 +129,7 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 42px;
+   height: 44px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
@@ -142,8 +142,8 @@ body
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
-   width: 234px;
-   height: 42px;
+   width: 190px;
+   height: 50px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
@@ -156,34 +156,7 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 42px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table2 .cell6
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: middle;
-   width: 234px;
-   height: 54px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table2 .cell7
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: left;
-   vertical-align: middle;
-   height: 54px;
+   height: 50px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
