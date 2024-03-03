@@ -173,7 +173,16 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text4 div
+#wb_Text4
 {
-   text-align: left;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 21px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
 }
