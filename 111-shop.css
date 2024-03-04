@@ -61,7 +61,7 @@ body
 #Table2
 {
    border-radius: 0px;
-   border: 2px solid #4F4F4F;
+   border: 2px solid transparent;
    background-color: transparent;
    background-image: none;
    border-collapse: separate;
@@ -143,40 +143,13 @@ body
    text-align: center;
    vertical-align: middle;
    width: 234px;
-   height: 42px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table2 .cell5
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: left;
-   vertical-align: middle;
-   height: 42px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table2 .cell6
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: middle;
-   width: 234px;
    height: 54px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
 }
-#Table2 .cell7
+#Table2 .cell5
 {
    background-color: transparent;
    background-image: none;
