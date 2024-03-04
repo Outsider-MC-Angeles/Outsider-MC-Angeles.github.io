@@ -182,3 +182,35 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_indexShape1
+{
+   transform: rotate(270deg);
+   transform-origin: 50% 50%;
+}
+#wb_indexShape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_indexShape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_indexShape1 a:hover .default
+{
+   visibility: hidden;
+}
+#indexShape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
