@@ -127,3 +127,218 @@ a:hover
 {
    text-align: left;
 }
+#wb_linksLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#linksLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0 15px 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#linksLayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#linksLayoutGrid1 > .row > .col-1, #linksLayoutGrid1 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#linksLayoutGrid1 > .row > .col-1, #linksLayoutGrid1 > .row > .col-2
+{
+   float: left;
+}
+#linksLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#linksLayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#linksLayoutGrid1:before,
+#linksLayoutGrid1:after,
+#linksLayoutGrid1 .row:before,
+#linksLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#linksLayoutGrid1:after,
+#linksLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#linksLayoutGrid1 > .row > .col-1, #linksLayoutGrid1 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#linksThemeableButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#linksThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#linksThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+#linksThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+}
+#linksThemeableButton1.ui-button
+{
+   background-color: #C0C0C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #000000;
+}
+#linksThemeableButton1.ui-state-hover, #linksThemeableButton1.ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#linksThemeableButton1.ui-state-active, #linksThemeableButton1.ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#linksEditbox1
+{
+   line-height: 16px;
+   margin: 0;
+   border: 1px solid #DDDDDD;
+   border-radius: 4px;
+   background-color: #C0C0C0;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#linksEditbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_linksText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_linksText1 div
+{
+   text-align: center;
+}
+#wb_linksText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_linksText2 div
+{
+   text-align: left;
+}
+#wb_indexShape1
+{
+   transform: rotate(270deg);
+   transform-origin: 50% 50%;
+}
+#wb_indexShape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_indexShape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_indexShape1 a:hover .default
+{
+   visibility: hidden;
+}
+#indexShape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
