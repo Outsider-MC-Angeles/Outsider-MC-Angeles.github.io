@@ -20,75 +20,64 @@ body
    margin: 0;
    text-align: center;
 }
-a
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6
 {
    color: #FFFFFF;
-   text-decoration: underline;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   line-height: 30px;
 }
-a:hover
+#wb_Text6 p, #wb_Text6 ul
 {
-   color: #0000FF;
-   text-decoration: underline;
+   margin: 0;
+   padding: 0;
 }
-#wb_Text1 
+#Table2
+{
+   border-radius: 0px;
+   border: 2px solid transparent;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table2 td, #Table2 th
+{
+   padding: 5px 5px 5px 5px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
+   border: 1px #C0C0C0 solid;
    text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
-}
-#wb_linksText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_linksText1 div
-{
-   text-align: center;
-}
-#wb_indexShape1
-{
-   transform: rotate(270deg);
-   transform-origin: 50% 50%;
-}
-#wb_indexShape1 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_indexShape1 .default
-{
-   position: absolute;
-   left: 0;
-}
-#wb_indexShape1 a .hover
-{
-   visibility: hidden;
-}
-#wb_indexShape1 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_indexShape1 a:hover .default
-{
-   visibility: hidden;
-}
-#indexShape1
-{
-   border-width: 0;
-   vertical-align: top;
+   vertical-align: middle;
+   height: 1836px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+   line-height: 20px;
 }
 #wb_Image1
 {
@@ -244,4 +233,50 @@ a:hover
    font-size: 1px;
    height: 0;
    line-height: 0;
+}
+#wb_indexShape1
+{
+   transform: rotate(270deg);
+   transform-origin: 50% 50%;
+}
+#wb_indexShape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_indexShape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_indexShape1 a:hover .default
+{
+   visibility: hidden;
+}
+#indexShape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_StoriesText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_StoriesText1 div
+{
+   text-align: left;
 }

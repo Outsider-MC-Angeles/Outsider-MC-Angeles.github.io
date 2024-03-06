@@ -140,14 +140,14 @@ body
    padding: 0;
    position: relative;
    display: inline-block;
-   width: 100px;
+   width: 120px;
 }
 #wb_indexCssMenu2 li
 {
    float: left;
    margin: 0;
    padding: 0px 0px 0px 0px;
-   width: 100px;
+   width: 120px;
 }
 #wb_indexCssMenu2 a
 {
@@ -159,7 +159,7 @@ body
    background-image: none;
    font-family: Arial;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 19px;
    font-style: normal;
    text-decoration: none;
    text-transform: none;
@@ -168,7 +168,7 @@ body
 }
 #wb_indexCssMenu2 > ul > li > a
 {
-   width: 77px;
+   width: 97px;
    height: 40px;
    line-height: 40px;
    padding: 0px 5px 0px 18px;
@@ -210,14 +210,14 @@ body
    padding: 0;
    position: relative;
    display: inline-block;
-   width: 100px;
+   width: 120px;
 }
 #wb_indexCssMenu1 li
 {
    float: left;
    margin: 0;
    padding: 0px 0px 0px 0px;
-   width: 100px;
+   width: 120px;
 }
 #wb_indexCssMenu1 a
 {
@@ -229,7 +229,7 @@ body
    background-image: none;
    font-family: Arial;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 19px;
    font-style: normal;
    text-decoration: none;
    text-transform: none;
@@ -238,7 +238,7 @@ body
 }
 #wb_indexCssMenu1 > ul > li > a
 {
-   width: 77px;
+   width: 97px;
    height: 40px;
    line-height: 40px;
    padding: 0px 5px 0px 18px;
