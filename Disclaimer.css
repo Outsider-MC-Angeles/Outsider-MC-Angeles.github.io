@@ -20,21 +20,7 @@ body
    margin: 0;
    text-align: center;
 }
-a
-{
-   color: #FFFFFF;
-   text-decoration: underline;
-}
-a:active
-{
-   color: #FF0000;
-}
-a:hover
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-#wb_Text1 
+#wb_Text6 
 {
    background-color: transparent;
    background-image: none;
@@ -44,64 +30,54 @@ a:hover
    margin: 0;
    text-align: left;
 }
-#wb_Text1
+#wb_Text6
 {
    color: #FFFFFF;
    font-family: Arial;
    font-weight: 400;
-   font-size: 20px;
-   line-height: 22.5px;
+   font-size: 27px;
+   line-height: 30px;
 }
-#wb_Text1 p, #wb_Text1 ul
+#wb_Text6 p, #wb_Text6 ul
 {
    margin: 0;
    padding: 0;
 }
-#wb_Text2 
+#Table2
+{
+   border-radius: 0px;
+   border: 2px solid transparent;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table2 td, #Table2 th
+{
+   padding: 5px 5px 5px 5px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text2 div
-{
-   text-align: center;
-}
-#wb_indexShape1
-{
-   transform: rotate(270deg);
-   transform-origin: 50% 50%;
-}
-#wb_indexShape1 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_indexShape1 .default
-{
-   position: absolute;
-   left: 0;
-}
-#wb_indexShape1 a .hover
-{
-   visibility: hidden;
-}
-#wb_indexShape1 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_indexShape1 a:hover .default
-{
-   visibility: hidden;
-}
-#indexShape1
-{
-   border-width: 0;
-   vertical-align: top;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 184px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+   line-height: 20px;
 }
 #wb_Image1
 {
@@ -258,18 +234,35 @@ a:hover
    height: 0;
    line-height: 0;
 }
-#wb_indexImage1
+#wb_indexShape1
 {
-   vertical-align: top;
+   transform: rotate(270deg);
+   transform-origin: 50% 50%;
 }
-#indexImage1
+#wb_indexShape1 a img
 {
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
+   position: absolute;
    left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+}
+#wb_indexShape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_indexShape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_indexShape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_indexShape1 a:hover .default
+{
+   visibility: hidden;
+}
+#indexShape1
+{
+   border-width: 0;
+   vertical-align: top;
 }
