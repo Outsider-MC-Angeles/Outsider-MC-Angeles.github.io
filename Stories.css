@@ -266,17 +266,3 @@ body
    border-width: 0;
    vertical-align: top;
 }
-#wb_StoriesText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_StoriesText1 div
-{
-   text-align: left;
-}
