@@ -155,7 +155,7 @@ a:hover
 }
 #wb_indexCssMenu2 li:hover a, #wb_indexCssMenu2 a:hover, #wb_indexCssMenu2 .active
 {
-   color: #F05F40;
+   color: #FFFFFF;
    border: 0px solid #222222;
    background-color: transparent;
    background-image: none;
@@ -225,7 +225,7 @@ a:hover
 }
 #wb_indexCssMenu1 li:hover a, #wb_indexCssMenu1 a:hover, #wb_indexCssMenu1 .active
 {
-   color: #F05F40;
+   color: #FFFFFF;
    border: 0px solid #222222;
    background-color: transparent;
    background-image: none;
