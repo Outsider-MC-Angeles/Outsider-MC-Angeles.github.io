@@ -373,9 +373,9 @@ body
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
-   text-align: left;
+   text-align: center;
    vertical-align: middle;
-   height: 44px;
+   height: 324px;
    font-size: 0;
 }
 #galleryTable1 .cell3
@@ -385,40 +385,10 @@ body
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
-   height: 324px;
-   font-size: 0;
-}
-#galleryTable1 .cell4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: left;
-   vertical-align: middle;
-   height: 44px;
-   font-size: 0;
-}
-#galleryTable1 .cell5
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: middle;
    height: 210px;
    font-size: 0;
 }
-#galleryTable1 .cell6
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: left;
-   vertical-align: middle;
-   height: 44px;
-   font-size: 0;
-}
-#galleryTable1 .cell7
+#galleryTable1 .cell4
 {
    background-color: transparent;
    background-image: none;
@@ -428,7 +398,7 @@ body
    height: 290px;
    font-size: 0;
 }
-#galleryTable1 .cell8
+#galleryTable1 .cell5
 {
    background-color: transparent;
    background-image: none;
@@ -438,14 +408,14 @@ body
    height: 44px;
    font-size: 0;
 }
-#galleryTable1 .cell9
+#galleryTable1 .cell6
 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
-   height: 276px;
+   height: 220px;
    font-size: 0;
 }
 #wb_galleryText1 
