@@ -73,6 +73,19 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
+   height: 508px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+   line-height: 20px;
+}
+#Table20 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
    height: 552px;
    color: #000000;
    font-family: Arial;
