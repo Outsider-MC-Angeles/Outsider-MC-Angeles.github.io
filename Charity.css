@@ -73,11 +73,11 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 508px;
-   color: #FFFFFF;
+   height: 550px;
+   color: #000000;
    font-family: Arial;
-   font-size: 17px;
-   line-height: 20px;
+   font-size: 13px;
+   line-height: 16px;
 }
 #Table20 .cell1
 {
@@ -86,11 +86,11 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 552px;
-   color: #000000;
+   height: 508px;
+   color: #FFFFFF;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 17px;
+   line-height: 20px;
 }
 #wb_Image1
 {
