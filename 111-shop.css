@@ -143,7 +143,7 @@ body
    text-align: center;
    vertical-align: middle;
    width: 216px;
-   height: 176px;
+   height: 160px;
    color: #000000;
    font-family: Arial;
    font-size: 13px;
@@ -156,11 +156,11 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 176px;
+   height: 160px;
    color: #FFFFFF;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 15px;
+   line-height: 16.5px;
 }
 #Table2 .cell6
 {
@@ -170,8 +170,8 @@ body
    text-align: center;
    vertical-align: middle;
    width: 216px;
-   height: 100px;
-   color: #FFFFFF;
+   height: 176px;
+   color: #000000;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
@@ -183,11 +183,11 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 100px;
+   height: 176px;
    color: #FFFFFF;
    font-family: Arial;
-   font-size: 15px;
-   line-height: 16.5px;
+   font-size: 13px;
+   line-height: 16px;
 }
 #Table2 .cell8
 {
@@ -197,7 +197,7 @@ body
    text-align: center;
    vertical-align: middle;
    width: 216px;
-   height: 110px;
+   height: 100px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 13px;
@@ -210,7 +210,7 @@ body
    border: 1px #C0C0C0 solid;
    text-align: left;
    vertical-align: middle;
-   height: 110px;
+   height: 100px;
    color: #FFFFFF;
    font-family: Arial;
    font-size: 15px;
@@ -224,13 +224,40 @@ body
    text-align: center;
    vertical-align: middle;
    width: 216px;
+   height: 110px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 110px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16.5px;
+}
+#Table2 .cell12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 216px;
    height: 136px;
    color: #000000;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
 }
-#Table2 .cell11
+#Table2 .cell13
 {
    background-color: transparent;
    background-image: none;
@@ -243,7 +270,7 @@ body
    font-size: 16px;
    line-height: 18px;
 }
-#Table2 .cell12
+#Table2 .cell14
 {
    background-color: transparent;
    background-image: none;
@@ -257,7 +284,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table2 .cell13
+#Table2 .cell15
 {
    background-color: transparent;
    background-image: none;
