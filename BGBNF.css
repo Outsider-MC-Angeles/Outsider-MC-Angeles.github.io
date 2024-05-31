@@ -50,8 +50,8 @@ body
    color: #FFFFFF;
    font-family: Arial;
    font-weight: 400;
-   font-size: 21px;
-   line-height: 24.5px;
+   font-size: 17px;
+   line-height: 20px;
 }
 #wb_Text5 p, #wb_Text5 ul
 {
@@ -91,8 +91,8 @@ body
    height: 176px;
    color: #FFFFFF;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 11px;
+   line-height: 12px;
 }
 #Table1 .cell1
 {
@@ -104,8 +104,8 @@ body
    height: 182px;
    color: #FFFFFF;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 11px;
+   line-height: 12px;
 }
 #wb_indexShape1
 {
